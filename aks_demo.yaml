@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: report-app-deployment1
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: my-report-app
+  template:
+    metadata:
+      labels:
+        app: my-report-app
+    spec:
+      containers:
+      - name: my-report-app
+        image: reportdash.azurecr.io/streamlit_demo_streamlit:latest
+        imagePullPolicy: Always       
+        ports:
+        - containerPort: 8501        
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: report-app-streamlit11
+spec:
+  selector:
+    app: my-report-app
+  ports:
+  - protocol: TCP
+    port: 8501
+    targetPort: 8501
+  type: LoadBalancer

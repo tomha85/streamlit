@@ -1,0 +1,49 @@
+Hour,Status,Rate (¢/kWh)
+20:00,Enrolled,4.6
+20:00,Not Enrolled,10.9
+21:00,Enrolled,5.1
+21:00,Not Enrolled,10.2
+22:00,Enrolled,5.0
+22:00,Not Enrolled,9.2
+23:00,Enrolled,4.3
+23:00,Not Enrolled,8.1
+00:00,Enrolled,3.1
+00:00,Not Enrolled,7.5
+01:00,Enrolled,2.1
+01:00,Not Enrolled,6.8
+02:00,Enrolled,2.0
+02:00,Not Enrolled,6.0
+03:00,Enrolled,1.9
+03:00,Not Enrolled,5.7
+04:00,Enrolled,1.9
+04:00,Not Enrolled,6.2
+05:00,Enrolled,2.2
+05:00,Not Enrolled,6.9
+06:00,Enrolled,2.9
+06:00,Not Enrolled,8.0
+07:00,Enrolled,3.6
+07:00,Not Enrolled,9.0
+08:00,Enrolled,4.3
+08:00,Not Enrolled,9.3
+09:00,Enrolled,4.7
+09:00,Not Enrolled,8.9
+10:00,Enrolled,4.9
+10:00,Not Enrolled,8.0
+11:00,Enrolled,5.1
+11:00,Not Enrolled,7.6
+12:00,Enrolled,3.3
+12:00,Not Enrolled,7.5
+13:00,Enrolled,3.2
+13:00,Not Enrolled,7.5
+14:00,Enrolled,3.2
+14:00,Not Enrolled,7.5
+15:00,Enrolled,3.3
+15:00,Not Enrolled,7.6
+16:00,Enrolled,3.5
+16:00,Not Enrolled,8.1
+17:00,Enrolled,3.9
+17:00,Not Enrolled,9.8
+18:00,Enrolled,4.1
+18:00,Not Enrolled,11.0
+19:00,Enrolled,4.4
+19:00,Not Enrolled,11.3
