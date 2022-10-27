@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'dashboardv1g'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_489AEE417AED4CA99520ED3514AD2860 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F47D6D18416245B58E48302E0CB167BA }}
